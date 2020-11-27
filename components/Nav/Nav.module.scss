@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin-top: 24px;
+}
+
+.links {
+    a {
+        color: #e0e6eb;
+        &:hover {
+            background-color: rgba(224, 230, 235, 0.2);
+        }
+    }
+}

@@ -1,1 +1,28 @@
+.container {
+    display: flex;
+    padding-top: 130px;
+}
 
+.intro {
+    margin-bottom: 24px;
+}
+
+.paragraph {
+    margin-top: 16px;
+}
+
+.image {
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px solid #d65780;
+    width: 120px;
+    height: 119px;
+    img {
+        border-radius: 50%;
+    }
+}
+
+.content {
+    width: 750px;
+    margin-left: 24px;
+}
