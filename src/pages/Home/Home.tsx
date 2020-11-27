@@ -11,7 +11,12 @@ export function Home(): JSX.Element {
                     <Image src="/rowan.jpg" alt="Rowan Krishnan" width={120} height={119} />
                 </div>
                 <div className={styles.content}>
-                    <h1 className={styles.intro}>Hi, I&apos;m Rowan.</h1>
+                    <span className={styles.topLine}>
+                        <div className={styles.mobileImage}>
+                            <Image src="/rowan.jpg" alt="Rowan Krishnan" width={80} height={79} />
+                        </div>
+                        <h1 className={styles.intro}>Hi, I&apos;m Rowan.</h1>
+                    </span>
                     <p className={styles.paragraph}>
                         I build software products and lead engineering teams. For the past three years, I’ve been
                         writing code, designing processes, and growing people at{' '}
