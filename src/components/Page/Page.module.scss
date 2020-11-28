@@ -1,7 +1,7 @@
 @import 'theme/colors';
 
 .container {
-    height: 100vh;
+    height: calc(100vh - 3px);
     width: 100vw;
     background-color: $blue01;
     display: flex;
