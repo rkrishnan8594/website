@@ -13,9 +13,17 @@
 
 .links {
     a {
-        color: $gray01;
-        &:hover {
-            background-color: rgba(224, 230, 235, 0.2);
+        &:not(:first-of-type) {
+            margin-left: 12px;
         }
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+.link {
+    & > div {
+        top: 3px;
     }
 }

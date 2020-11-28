@@ -6,19 +6,18 @@ export function Nav(): JSX.Element {
     return (
         <div className={styles.container}>
             <Image src="/logo.svg" alt="RK" width={74} height={24} />
-            <p className={styles.links}>
+            <div className={styles.links}>
                 <Link href="https://www.linkedin.com/in/rowankrishnan/" passHref>
-                    resume
+                    <a className={styles.link} target="_blank">
+                        <Image src="/linkedin.svg" alt="RK" width={24} height={24} />
+                    </a>
                 </Link>
-                ,{' '}
-                <Link href="https://www.linkedin.com/in/rowankrishnan/" passHref>
-                    linkedin
-                </Link>
-                ,{' '}
                 <Link href="https://github.com/rkrishnan8594" passHref>
-                    github
+                    <a className={styles.link} target="_blank">
+                        <Image src="/github.svg" alt="RK" width={24} height={24} />
+                    </a>
                 </Link>
-            </p>
+            </div>
         </div>
     );
 }
