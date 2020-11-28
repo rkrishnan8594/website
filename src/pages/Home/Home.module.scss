@@ -1,8 +1,13 @@
+@import 'theme/colors';
+
 .container {
     display: flex;
     padding-top: 130px;
     @media screen and (max-width: 860px) {
         padding-top: 90px;
+    }
+    @media screen and (max-width: 500px) {
+        padding-top: 65px;
     }
 }
 
@@ -19,7 +24,7 @@
 .image {
     border-radius: 50%;
     padding: 4px;
-    border: 2px solid #d65780;
+    border: 2px solid $pink01;
     width: 120px;
     height: 119px;
     img {
@@ -34,7 +39,7 @@
     display: none;
     border-radius: 50%;
     padding: 4px;
-    border: 2px solid #d65780;
+    border: 2px solid $pink01;
     width: 80px;
     height: 79px;
     margin-right: 16px;
