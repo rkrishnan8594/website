@@ -1,0 +1,48 @@
+@import 'theme/colors';
+
+.container {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.switch {
+    display: flex;
+    height: 25px;
+    position: relative;
+    width: 45px;
+}
+
+.switchInput {
+    display: none;
+    &:checked {
+        & + .slider {
+            background-color: $pink01;
+            &:before {
+                transform: translateX(19px);
+            }
+        }
+    }
+}
+
+.slider {
+    background-color: $gray01;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+    border-radius: 34px;
+    &:before {
+        background-color: $white01;
+        bottom: 3px;
+        content: '';
+        height: 19px;
+        left: 4px;
+        position: absolute;
+        transition: 0.4s;
+        width: 19px;
+        border-radius: 50%;
+    }
+}

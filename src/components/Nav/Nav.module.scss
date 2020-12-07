@@ -1,5 +1,3 @@
-@import 'theme/colors';
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -12,10 +10,10 @@
 }
 
 .links {
+    display: flex;
+    align-items: center;
     a {
-        &:not(:first-of-type) {
-            margin-left: 12px;
-        }
+        margin-right: 12px;
         &:hover {
             background-color: transparent;
         }
