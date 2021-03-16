@@ -18,14 +18,22 @@ export function Home(): JSX.Element {
                         <Heading className={styles.intro}>Hi, I&apos;m Rowan.</Heading>
                     </span>
                     <Text className={styles.paragraph}>
-                        I build web products and lead software teams. For the past three years, I’ve been writing code,
-                        designing processes, and growing the engineering org at{' '}
-                        <Link href="https://www.lola.com/" passHref>
-                            Lola.com.
-                        </Link>{' '}
+                        I build web products and lead software teams. I’m currently at{' '}
+                        <Link href="https://vimeo.com/" passHref>
+                            Vimeo
+                        </Link>
+                        , where I’m leading the engineering team that builds Vimeo’s signature{' '}
+                        <Link href="https://vimeo.com/feltsoulmedia/denali" passHref>
+                            player
+                        </Link>
+                        .
                     </Text>
                     <Text className={styles.paragraph}>
-                        Previously, I worked at{' '}
+                        Previously, I spent three years at{' '}
+                        <Link href="https://lola.com/" passHref>
+                            Lola.com
+                        </Link>{' '}
+                        writing code, designing processes, and growing the engineering org. I&apos;ve also worked at{' '}
                         <Link href="https://upstatement.com/" passHref>
                             Upstatement
                         </Link>{' '}
